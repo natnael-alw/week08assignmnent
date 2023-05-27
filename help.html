@@ -43,18 +43,29 @@
 
 
 <form>
+    <fieldset>
+       
     <label>Fullname</label><br>
     <input type="text" name="Fullname" > <br>
     <label>Email    </label><br>
     <input type="text" name=" Email" ><br><br>
     <input id="submit" type="submit" name="submit">
     <p>New customer?</p>
-    <input type="radio" name="yes" placeholder="yes"> Yes <br><br>
-    <input type="radio" name="No" placeholder="yes"> No <br> <br>
+    <div>
+        <legend>New customer?</legend>
+        <br>
+    <input type="radio" name="yes"  id="radio1"  >  
+    <label   for="radio1">Yes</label>
+    <br><br>
+</div>
+<div>
+    <input type="radio" name="Yes" id="radio2" >  
+    <label  for="radio2">No</label>
+</div>
+   
 
 </form>
-
-</div>
+</fieldset>
 
 
   
