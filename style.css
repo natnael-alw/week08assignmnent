@@ -79,8 +79,8 @@ img{
     padding: 1rem 1rem;
 
 }
-form:focus{
-    color: chartreuse;
+form:active{
+    background-color: rgb(43, 0, 255);
 }
 footer{
     text-align: left;
